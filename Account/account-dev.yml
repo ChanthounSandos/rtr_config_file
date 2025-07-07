@@ -1,0 +1,25 @@
+service:
+  info: Account Microservice (Development)
+
+spring:
+  application:
+    name: account
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5001/account
+    username: postgres
+    password: 123
+
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8080/realms/dms
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 9001
+

@@ -1,0 +1,5 @@
+service:
+  info: Customer Microservice (Quality Assurance)
+
+server:
+  port: 9000
