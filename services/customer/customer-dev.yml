@@ -5,11 +5,11 @@ spring:
   application:
     name: customer
 
-  datasource:
+    datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5001/customer
-    username: postgres
-    password: 123
+    username: "{cipher}f0dd53dff7abe5dd12d30a9f1975a559f93c22b376082646c4c2fe99ad6a28d6"
+    password: "{cipher}8713524211bbe6001f232a994f162cd7a408bf16810068236f086158c4ad1273"
 
   security:
     oauth2:
