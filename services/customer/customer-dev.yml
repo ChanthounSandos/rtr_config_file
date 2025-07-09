@@ -8,8 +8,8 @@ spring:
     datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5001/customer
-    username: "{cipher}f0dd53dff7abe5dd12d30a9f1975a559f93c22b376082646c4c2fe99ad6a28d6"
-    password: "{cipher}8713524211bbe6001f232a994f162cd7a408bf16810068236f086158c4ad1273"
+    username: "{cipher}9e039bdf5c36e27234b44dac77fdca8395d69f2662a1169ecb0b3ee5539f87b6"
+    password: "{cipher}c5cdecba825cd490276c46254764a6d0f0acb1911cb45535c085a78ac9bd6250"
 
   security:
     oauth2:
