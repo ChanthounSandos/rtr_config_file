@@ -2,10 +2,12 @@ service:
   info: Customer Microservice (Development)
 
 spring:
-  application:
-    name: customer
 
-    datasource:
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  datasource:
     driver-class-name: org.postgresql.Driver
     url: ${DB_URL}
     username: ${DB_USERNAME}
@@ -16,10 +18,6 @@ spring:
       resourceserver:
         jwt:
           issuer-uri: http://localhost:8080/realms/dms
-  jpa:
-    hibernate:
-      ddl-auto: update
 
 server:
   port: 9000
-
