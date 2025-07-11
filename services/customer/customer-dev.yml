@@ -7,9 +7,9 @@ spring:
 
     datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5001/customer
-    username: "{cipher}3cb0ba0c7c8e2c5bdc3f63d3c0c0c1dd8a073524b2459728f3375ecce3cc5ddd"
-    password: "{cipher}c5cdecba825cd490276c46254764a6d0f0acb1911cb45535c085a78ac9bd6250"
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
 
   security:
     oauth2:
