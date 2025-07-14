@@ -1,5 +1,6 @@
 service:
   info: Account Microservice (Development)
+  version: 1.0-Beta
 
 spring:
 
@@ -19,5 +20,5 @@ spring:
       ddl-auto: update
 
 server:
-  port: 16801
+  port: 9001
 
