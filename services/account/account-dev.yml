@@ -2,8 +2,6 @@ service:
   info: Account Microservice (Development)
 
 spring:
-  application:
-    name: account
 
   datasource:
     driver-class-name: org.postgresql.Driver
