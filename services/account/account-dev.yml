@@ -1,6 +1,6 @@
 service:
   info: Account Microservice (Development)
-  version: 1.0-Beta
+  version: 2.0-Beta
 
 spring:
 
