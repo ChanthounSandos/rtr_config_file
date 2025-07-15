@@ -1,6 +1,6 @@
 service:
   info: Customer Microservice (DEVELOPMENT)
-  version: 2.0-Beta
+  version: 3.0-Beta
 
 spring:
 
