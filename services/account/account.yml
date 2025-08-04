@@ -18,7 +18,7 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: http://localhost:8080/realms/dms
+          issuer-uri: https://chanthoun.theathoun.site/realms/rtr-ms
 
 server:
   port: 9001
