@@ -1,23 +1,2 @@
 service:
-  info: Customer Microservice (DEVELOPMENT)
-  version: 2.2-Beta
-
-spring:
-  jpa:
-    hibernate:
-      ddl-auto: update
-
-  datasource:
-    driver-class-name: org.postgresql.Driver
-    url: ${DB_URL} #jdbc:postgresql://localhost:5551/db_customer
-    username: ${DB_USERNAME}
-    password: ${DB_PASSWORD}
-
-  security:
-    oauth2:
-      resourceserver:
-        jwt:
-          issuer-uri: https://chanthoun.theathoun.site/realms/rtr-ms
-
-server:
-  port: 9000
+  info: Customer Microservice (dev)
